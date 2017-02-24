@@ -1,4 +1,12 @@
 * {
   box-sizing: border-box; }
 
+.container-fluid img {
+  max-width: 350px;
+  max-height: 350px; }
+
+.social img {
+  max-width: 50px;
+  max-height: 50px; }
+
 /*# sourceMappingURL=styles.css.map */
