@@ -1,6 +1,12 @@
 * {
   box-sizing: border-box; }
 
+.container-body {
+  width: 1300px;
+  background-color: #26C281;
+  font-family: sans-serif;
+  margin: 0 auto; }
+
 .container-fluid img {
   max-width: 350px;
   max-height: 350px; }
@@ -8,5 +14,17 @@
 .social img {
   max-width: 50px;
   max-height: 50px; }
+
+.jumbo-small-mighty {
+  width: 100%;
+  padding: 0px;
+  margin: 0px; }
+
+.mighty-overlay {
+  width: 50%;
+  position: relative;
+  top: -500px;
+  left-margin: auto;
+  right-margin: auto; }
 
 /*# sourceMappingURL=styles.css.map */
