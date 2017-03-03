@@ -10,34 +10,44 @@
   </head>
   <body>
     <div class="container-body">
-      <nav class="nav_collapsible">
-          <span class="nav__hamburger"><i class="ion-navicon"></i></span>
-
-          <ul class="nav__full-site-options">
-             <li>Log in</li>
+      <nav class="nav_collapsed">
+          <p class="nav__hamburger"><i class="ion-navicon"></i></p>
+      </nav>
+      <nav class="nav-full-site-options">
+          <ul class="nav-left">
+             <li><img src="./images/solrod-logo-fletch.svg" class="logo"</li>
+             <li>Tour</li>
+             <li>Examples</li>
+             <li>Pricing &amp Sign-Up</li>
+          </ul>
+          <ul class="nav-right">
+             <li>Log In</li>
              <li>Help</li>
              <li>Blog</li>
           </ul>
-       </nav>
+        </nav>
 
         <div class="more-about">
           <p>More about the solrod team</p>
         </div>
+
+        <div class="container-help-and-thumbnails">
         <div class="we-help">
           <h2>We help artists make a living doing what they love</h2>
           <p>Solrod Strand is a beach in Denmark known for its murky water, chunky sand, and excessive sea moss. But here, it's a place where dreams come true.  Collaborate with us and we'll find custom marketing and distribution solutions for your creations.  Selling big doesn't have to mean selling out.</p>
         </div>
 
         <!-- Employee Grid Begin -->
+        <div class="container-fluid">
         <div class="row">
               <div class="col-xs-12 col-md-3">
                 <div class="thumbnail" "employee_grid">
                     <img class="employee-portfolio"src="images/solrod-profile-pic-1-eric.png" alt="eric">
                     <div class="caption">
-                    <p>Eric Turner</p>
-                    <p>Co-founder/Design Director</p>
-                    <p>BFE, WA</p>
-                    <p>@Stremph</p>
+                    <p class="name-text">Eric Turner</p>
+                    <p class="secondary-text">Co-founder/Design Director</p>
+                    <p class="secondary-text">BFE, WA</p>
+                    <p class="green-text">@Stremph</p>
                     </div>
                 </div>
               </div>
@@ -46,10 +56,10 @@
                 <div class="thumbnail" "employee_grid">
                     <img class="employee-portfolio" src="images/solrod-profile-pic-2-karen.png" alt="Karen">
                     <div class="caption">
-                      <p>Karen Kenney</p>
-                      <p>Support</p>
-                      <p>Middle of Nowhere, WA</p>
-                      <p>@AlmightyKaren</p>
+                      <p class="name-text">Karen Kenney</p>
+                      <p class="secondary-text">Support</p>
+                      <p class="secondary-text">Middle of Nowhere, WA</p>
+                      <p class="green-text">@AlmightyKaren</p>
                     </div>
                 </div>
               </div>
@@ -58,10 +68,10 @@
                 <div class="thumbnail" "employee_grid">
                     <img class="employee-portfolio" src="images/solrod-profile-pic-3-lee.png" alt="Lee">
                     <div class="caption">
-                      <p>Lee Jensen</p>
-                      <p>Engineering Director</p>
-                      <p>Bountiful, UT</p>
-                      <p>@Outerim</p>
+                      <p class="name-text">Lee Jensen</p>
+                      <p class="secondary-text">Engineering Director</p>
+                      <p class="secondary-text">Bountiful, UT</p>
+                      <p class="green-text">@Outerim</p>
                     </div>
                 </div>
               </div>
@@ -70,10 +80,22 @@
                 <div class="thumbnail" "employee_grid">
                     <img class="employee-portfolio" src="images/solrod-profile-pic-4-carl.png" alt="Carl">
                     <div class="caption">
-                      <p>Carl DeCaire</p>
-                      <p>Design</p>
-                      <p>Columbus, OH</p>
-                      <p>@Empirika</p>
+                      <p class="name-text">Carl DeCaire</p>
+                      <p class="secondary-text">Design</p>
+                      <p class="secondary-text">Columbus, OH</p>
+                      <p class="green-text">@Empirika</p>
+                    </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-md-3">
+                <div class="thumbnail" "employee_grid">
+                    <img class="employee-portfolio" src="images/solrod-profile-pic-5-anthony.png" alt="Anthony">
+                    <div class="caption">
+                      <p class="name-text">Anthony Colangelo</p>
+                      <p class="secondary-text">Engineering</p>
+                      <p class="secondary-text">Philadelphia, PA</p>
+                      <p class="green-text">@acolangelo</p>
                     </div>
                 </div>
               </div>
@@ -82,10 +104,10 @@
                 <div class="thumbnail" "employee_grid">
                     <img class="employee-portfolio" src="images/solrod-profile-pic-6-cella.png" alt="Celia">
                     <div class="caption">
-                      <p>Celia Sum</p>
-                      <p>Engineering</p>
-                      <p>Philadelphia, PA</p>
-                      <p>@Celiiia</p>
+                      <p class="name-text">Celia Sum</p>
+                      <p class="secondary-text">Engineering</p>
+                      <p class="secondary-text">Philadelphia, PA</p>
+                      <p class="green-text">@Celiiia</p>
                     </div>
                 </div>
               </div>
@@ -94,10 +116,10 @@
                 <div class="thumbnail" "employee_grid">
                     <img class="employee-portfolio" src="images/solrod-profile-pic-7-ashkay.png" alt="Ashkay">
                     <div class="caption">
-                      <p>Akshay Anikhindi</p>
-                      <p>Support</p>
-                      <p>Richmond, VA</p>
-                      <p>@JayKayShay</p>
+                      <p class="name-text">Akshay Anikhindi</p>
+                      <p class="secondary-text">Support</p>
+                      <p class="secondary-text">Richmond, VA</p>
+                      <p class="green-text">@JayKayShay</p>
                     </div>
                 </div>
               </div>
@@ -106,21 +128,20 @@
                 <div class="thumbnail" "employee_grid">
                     <img class="employee-portfolio" src="images/solrod-profile-pic-8-latoya.png" alt="LaToya">
                     <div class="caption">
-                      <p>LaToya Allen</p>
-                      <p>Engineering</p>
-                      <p>Chicago, IL</p>
-                      <p>@HashtagLaToya</p>
+                      <p class="name-text">LaToya Allen</p>
+                      <p class="secondary-text">Engineering</p>
+                      <p class="secondary-text">Chicago, IL</p>
+                      <p class="green-text">@HashtagLaToya</p>
                     </div>
                 </div>
               </div>
         </div>
+      </div>
+    </div>
         <!-- Employee Grid End -->
-        <div class="jumbotron">
-              <div class="container small-but-mighty">
-                <img class="jumbo-small-mighty"src="images/solrod-team-background.jpg" alt="join-us">
-              </div>
+        <div class="jumbotron jumbo-small-mighty">
+                <div> <img class="mighty-overlay"src="images/solrod-small-but-mighty.png"></div>
         </div>
-        <div><img class="mighty-overlay"src="images/solrod-small-but-mighty.png"</div>
         <!-- Employee Art Grant -->
         <div class="art-grant-text">
           <h2>Employee Art Grants</h2>
@@ -189,9 +210,8 @@
 
         </div>
       </div>
-        <div class="jumbotron">
+        <div class="jumbotron Jumbo-join-us">
               <div class="container">
-                <img class="jumbo-join-us"src="images/solrod-drawingboard-background.jpg" alt="join-us">
               </div>
         </div>
         <div class="menu-icon">
