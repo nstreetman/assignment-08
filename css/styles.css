@@ -49,6 +49,32 @@ li .logo {
 li:hover {
   background-color: rgba(156, 156, 156, 0.3); }
 
+.more-about {
+  color: #fff;
+  font-weight: 100;
+  border: 1.5px solid #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 30%;
+  text-align: center;
+  padding-top: 10px;
+  letter-spacing: 1px; }
+
+.we-help {
+  background-color: #fff;
+  text-align: center;
+  height: 200px;
+  line-height: 1.25;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+h2 {
+  font-family: "Palatino";
+  padding-top: 20px; }
+
 .thumbnail {
   padding-left: 0;
   padding-top: 0;
@@ -73,9 +99,8 @@ div .jumbo-small-mighty {
   margin-left: auto;
   margin-right: auto; }
 
-.mighty-overlay {
-  margin-left: auto;
-  margin-right: auto;
+.mighty-overlay img {
+  margin-left: 350px;
   width: 40%;
   height: 40%; }
 
