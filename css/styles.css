@@ -19,35 +19,7 @@ i {
   padding-bottom: 2px; }
 
 .nav-full-site-options {
-  height: 60px;
-  background: #000;
-  color: #fff;
-  display: inline-block;
-  width: 100%;
-  padding-top: 20px; }
-
-.nav-left {
-  float: left;
-  padding-left: 10px;
-  margin-left: 0px; }
-
-.nav-right {
-  float: right; }
-
-ul {
-  list-style: none;
-  display: inline-block; }
-
-li {
-  display: inline-block;
-  padding-right: 20px; }
-
-li .logo {
-  width: 25px;
-  height: 25px; }
-
-li:hover {
-  background-color: rgba(156, 156, 156, 0.3); }
+  display: none; }
 
 .more-about {
   color: #fff;
@@ -55,8 +27,8 @@ li:hover {
   border: 1.5px solid #fff;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
-  width: 30%;
+  margin-top: -25px;
+  width: 50%;
   text-align: center;
   padding-top: 10px;
   letter-spacing: 1px; }
@@ -65,26 +37,26 @@ li:hover {
   background-color: #fff;
   text-align: center;
   height: 200px;
-  line-height: 1.25;
-  margin-left: 12px;
-  margin-right: 12px;
+  line-height: 1.5;
   margin-top: 50px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  width: 100%; }
 
 h2 {
   font-family: "Palatino";
+  size: 1.5em;
   padding-top: 20px; }
+
+div .employee-grid {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto; }
 
 .thumbnail {
   padding-left: 0;
   padding-top: 0;
   padding-right: 0;
   border: 0px; }
-
-.container-help-and-thumbnails {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto; }
 
 .container-fluid img {
   object-fit: cover; }
@@ -93,26 +65,117 @@ h2 {
   clear: left; }
 
 div .jumbo-small-mighty {
-  background: url("../images/solrod-team-background.jpg");
-  background-size: cover;
-  height: 500px;
-  margin-left: auto;
-  margin-right: auto; }
+  display: none; }
 
 .mighty-overlay img {
-  margin-left: 350px;
-  width: 40%;
-  height: 40%; }
+  display: none; }
 
 div .Jumbo-join-us {
   background: url("../images/solrod-drawingboard-background.jpg");
   background-size: cover;
+  margin-top: 100px;
   height: 500px;
   padding-top: 200px;
   margin: 0px; }
 
+div .text {
+  width: 200px;
+  height: 50px;
+  color: #fff;
+  background-color: #34495E;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5%; }
+
+.social {
+  display: inline-block;
+  float: left;
+  width: 10%;
+  padding-top: 75px;
+  padding-bottom: 75px; }
+
 .social img {
   max-width: 50px;
-  max-height: 50px; }
+  max-height: 50px;
+  display: inline-block; }
+
+@media screen and (min-width: 768px) {
+  .nav_collapsed {
+    display: none; }
+
+  .nav-full-site-options {
+    height: 60px;
+    background: #000;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    padding-top: 20px; }
+
+  .nav-left {
+    float: left;
+    padding-left: 10px;
+    margin-left: 0px; }
+
+  .nav-right {
+    float: right; }
+
+  ul {
+    list-style: none;
+    display: inline-block; }
+
+  li {
+    display: inline-block;
+    padding-right: 20px; }
+
+  li .logo {
+    width: 25px;
+    height: 25px; }
+
+  li:hover {
+    background-color: rgba(156, 156, 156, 0.3); }
+
+  div .employee-grid {
+    width: 100%; }
+
+  .more-about {
+    color: #fff;
+    font-weight: 100;
+    border: 1.5px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 30%;
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: 1px; }
+
+  .we-help {
+    background-color: #fff;
+    text-align: center;
+    height: 200px;
+    line-height: 1.25;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+
+  .container-help-and-thumbnails {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; }
+
+  div .jumbo-small-mighty {
+    background: url("../images/solrod-team-background.jpg");
+    background-size: cover;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .mighty-overlay img {
+    margin-left: 350px;
+    width: 40%;
+    height: 40%; } }
 
 /*# sourceMappingURL=styles.css.map */
