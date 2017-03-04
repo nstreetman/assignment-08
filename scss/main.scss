@@ -8,15 +8,16 @@
 }
 
 ///navigation bars////
+////////////////////////
 
-
-///Mobile collapsed Nav///
+///Mobile burger Nav///
 .nav_collapsed {
   background: #000;
   color: #fff;
   width: 50px;
   height: 45px;
   text-align: center;
+  margin-left: 15px;
 }
 
 i{
@@ -53,6 +54,8 @@ i{
   margin-top: 50px;
   margin-bottom: 50px;
   width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 h2 {
@@ -72,6 +75,24 @@ div .employee-grid {
   padding-right: 0;
   border: 0px;
 }
+.caption {
+  text-align: center;
+  line-height: 1;
+  margin-top: 10px;
+}
+
+.name-text {
+  font-size: 1em;
+}
+
+.secondary-text {
+  font-size: .9em;
+}
+
+.green-text {
+  font-size: .9em;
+  color: chartreuse;
+}
 
 .container-fluid img{
     object-fit: cover;
@@ -79,6 +100,48 @@ div .employee-grid {
 
 .col-md-3:nth-child(4n+1){
     clear: left;
+}
+
+div .art-grant-grid {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.caption-grant {
+  display: inline-block;
+}
+.caption-text {
+  margin-top: 10px;
+  padding-bottom: 10px;
+  display: inline-block;
+  line-height: 1;
+  text-align: center;
+  margin-left: 150px;
+}
+.caption-icon {
+  margin-top: 25px;
+  display: inline-block;
+  float: right;
+  margin-left: 150px;
+}
+.caption-icon i {
+  font-size: 14px;
+  color: #A9A9A9;
+}
+
+.heading {
+  font-weight: 400;
+}
+.name{
+  font-size: .9em;
+  color: #A9A9A9;
+}
+///Employee Art Grants///
+.art-grant-text {
+  color: #fff;
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 50px;
 }
 ///Jumbotrons///
 div .jumbo-small-mighty {
@@ -93,12 +156,12 @@ div .Jumbo-join-us{
   background: url("../images/solrod-drawingboard-background.jpg");
   background-size: cover;
   margin-top: 100px;
-  height: 500px;
+  height: 300px;
   padding-top:  200px;
   margin: 0px;
 }
 div .text{
-  width: 200px;
+  width: 90%;
   height: 50px;
   color: #fff;
   background-color: #34495E;
@@ -113,8 +176,9 @@ div .text{
   display: inline-block;
   float: left;
   width: 10%;
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
 
 }
 .social img{
@@ -162,7 +226,10 @@ div .text{
     li:hover {
       background-color: rgba(156, 156, 156, .3);
     }
-
+    .we-help p{
+      font-size: 18px;
+      line-height: 1.5;
+    }
     ///grid///
     div .employee-grid {
       width: 100%;
@@ -203,11 +270,40 @@ div .text{
       height: 500px;
       margin-left: auto;
       margin-right: auto;
+      display: block;
     }
 
     .mighty-overlay img{
       	margin-left: 350px;
         width: 40%;
         height: 40%;
+        display: block;
+    }
+    div .Jumbo-join-us{
+      background: url("../images/solrod-drawingboard-background.jpg");
+      background-size: cover;
+      margin-top: 100px;
+      height: 500px;
+      padding-top:  200px;
+      margin: 0px;
+    }
+    div .art-grant-grid {
+      padding: 0px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    div .text{
+      width: 200px;
+      height: 50px;
+      color: #fff;
+      background-color: #34495E;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      padding: 10px;
+      border-radius: 5%;
+    }
+    .social {
+      float: right;
     }
   }
