@@ -1,3 +1,5 @@
+// @import "partials/_media-queries.scss";
+///I was playing with Sass structure but disabled the import and added it to the bottom because it wasn't compiling some of the changes correctly
 * {
     box-sizing: border-box;
 }
@@ -70,9 +72,9 @@ div .employee-grid {
   margin-right: auto;
 }
 .thumbnail {
-  padding-left: 0;
-  padding-top: 0;
-  padding-right: 0;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
   border: 0px;
 }
 .caption {
@@ -106,6 +108,7 @@ div .art-grant-grid {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
+  padding: 0px;
 }
 .caption-grant {
   display: inline-block;
@@ -186,11 +189,15 @@ div .text{
   max-height: 50px;
   display: inline-block;
 }
+
 ///Media Screen//
 @media screen and (min-width: 768px){
   ///Navigation///
     .nav_collapsed {
       display: none;
+    }
+    .more-about div {
+      margin-top: 25px;
     }
     .nav-full-site-options {
       height: 60px;
@@ -233,7 +240,10 @@ div .text{
     ///grid///
     div .employee-grid {
       width: 100%;
+      margin-left: auto;
+      margin-right: auto;
     }
+
     ///more-about box///
     .more-about{
       color: #fff;

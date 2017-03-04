@@ -56,9 +56,9 @@ div .employee-grid {
   margin-right: auto; }
 
 .thumbnail {
-  padding-left: 0;
-  padding-top: 0;
-  padding-right: 0;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
   border: 0px; }
 
 .caption {
@@ -85,7 +85,8 @@ div .employee-grid {
 div .art-grant-grid {
   width: 95%;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  padding: 0px; }
 
 .caption-grant {
   display: inline-block; }
@@ -163,6 +164,9 @@ div .text {
   .nav_collapsed {
     display: none; }
 
+  .more-about div {
+    margin-top: 25px; }
+
   .nav-full-site-options {
     height: 60px;
     background: #000;
@@ -199,7 +203,9 @@ div .text {
     line-height: 1.5; }
 
   div .employee-grid {
-    width: 100%; }
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
 
   .more-about {
     color: #fff;
